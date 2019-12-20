@@ -4,6 +4,8 @@ Command line utility for changing the display brightness.
 
 ## Installation 
 
+You'll need to have Stack installed.
+
 ```bash
 $ git clone https://github.com/juril33t/blight.git
 $ cd blight
