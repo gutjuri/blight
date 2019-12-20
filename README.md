@@ -20,8 +20,6 @@ If you skip this step, you'll have to execute blight as root.
 ## Usage
 
 ```
-blight command line tool (c) 2019 Juri Dispan
-
 Usage: blight COMMAND [-r|--relative] [-m|--max-brightness-file FILE]
               [-f|--brightness-file FILE]
   Manipulate display brightness
