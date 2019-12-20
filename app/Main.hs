@@ -59,7 +59,7 @@ desc = ( fullDesc
 
 toInternal :: Config -> Int -> Int -> Int
 toInternal cfg maxB | isRelative cfg =  (`div` 100) . (*maxB)
-                   | otherwise      = id
+                    | otherwise      = id
 
 fromInternal :: Config -> Int -> Int -> Int
 fromInternal cfg maxB | isRelative cfg = (`div` maxB) . (*100)
