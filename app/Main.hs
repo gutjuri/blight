@@ -40,14 +40,14 @@ opts =
     <*> strOption
       ( long "max-brightness-file"
      <> short 'm'
-     <> help "The file containing the maximum brightness"
+     <> help "The file containing the maximum brightness (default: /sys/class/backlight/intel_backlight/max_brightness)"
      <> metavar "FILE"
      <> value (defaultPath ++ "max_brightness")
       )
     <*> strOption
       ( long "brightness-file"
      <> short 'f'
-     <> help "The file containing the current brightness"
+     <> help "The file containing the current brightness (default: /sys/class/backlight/intel_backlight/brightness)"
      <> metavar "FILE"
      <> value (defaultPath ++ "brightness")
       )

@@ -28,9 +28,11 @@ Available options:
   -r,--relative            Using relative display brighness (as oppossed to the
                            internal representation)
   -m,--max-brightness-file FILE
-                           The file containing the maximum brightness
+                           The file containing the maximum brightness (default:
+                           /sys/class/backlight/intel_backlight/max_brightness)
   -f,--brightness-file FILE
-                           The file containing the current brightness
+                           The file containing the current brightness (default:
+                           /sys/class/backlight/intel_backlight/brightness)
   -h,--help                Show this help text
 
 Available commands:
