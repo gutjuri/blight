@@ -2,7 +2,17 @@
 
 Command line utility for changing the display brightness.
 
-## Installation 
+## Installation
+
+### Downloading the binary
+
+You can download the latest binary file [here](https://github.com/juril33t/blight/releases/download/0.1.0.0/blight-0.1.0.0.zip).
+Unzip it in a directory of your choice (ideally in your PATH, e.g. in /home/yourname/.local/bin).
+
+If you don't want to give root permissions to blight everytime you run it, execute `sudo give_permissions.sh /path/to/blight`. 
+This gives blight permissions to edit the linux `brightness` file.
+
+### Building from source
 
 You'll need to have Stack installed.
 
@@ -10,7 +20,7 @@ You'll need to have Stack installed.
 $ git clone https://github.com/juril33t/blight.git
 $ cd blight
 $ stack install
-$ sudo ./give_permissions # (*)
+$ sudo ./give_permissions $(which blight) # (*)
 
 ```
 
