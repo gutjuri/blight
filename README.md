@@ -4,6 +4,8 @@ Command line utility for changing the display brightness.
 
 ## Installation 
 
+You'll need to have Stack installed.
+
 ```bash
 $ git clone https://github.com/juril33t/blight.git
 $ cd blight
@@ -18,8 +20,6 @@ If you skip this step, you'll have to execute blight as root.
 ## Usage
 
 ```
-blight command line tool (c) 2019 Juri Dispan
-
 Usage: blight COMMAND [-r|--relative] [-m|--max-brightness-file FILE]
               [-f|--brightness-file FILE]
   Manipulate display brightness
