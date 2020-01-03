@@ -1,6 +1,6 @@
 # blight
 
-Command line utility for changing the display brightness.
+Command line utility for changing the display brightness under linux.
 
 ## Installation
 
