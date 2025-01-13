@@ -1,10 +1,10 @@
 name:                blight
 version:             0.1.0.0
-github:              "juriL33T/blight"
+github:              "gutjuri/blight"
 license:             BSD3
 author:              "Juri Dispan"
 maintainer:          "info@jdispan.de"
-copyright:           "2019 Author Juri Dispan"
+copyright:           "2025 Author Juri Dispan"
 
 extra-source-files:
 - README.md
@@ -17,7 +17,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/juriL33T/blight#readme>
+description:         Please see the README on GitHub at <https://github.com/gutjuri/blight#readme>
 
 dependencies:
 - base >= 4.7 && < 5
